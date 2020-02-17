@@ -1,0 +1,34 @@
+body{
+    background-image: url("2.jpg");
+}
+@font-face{
+    font-family:"Flotta";
+    src: url("flotta.otf");
+}
+.hh{
+    width: 65%;
+    background-image: url("1.jpg");
+    margin-left: 17%;
+}
+.a{
+    font-family:"Flotta";
+    font-size: 65px;
+    color: #f7dfd4;
+}
+.cc{
+    width: 20%;
+    background-color: #613a43;
+}
+.button {
+    background-color: #874e4c;
+    border: none;
+    color: white;
+    padding: 32px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 22%;
+    margin-top: 5%;
+    cursor: pointer;
+  }

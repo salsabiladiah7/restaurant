@@ -1,0 +1,31 @@
+.log{
+    width: 30%;
+    height: 210px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-color: brown;
+    border: 2px solid #874e4c;
+}
+form{
+    text-align: center;
+}
+.lin{
+    background: #46de4b;
+    color: white;
+    cursor: pointer;
+}
+.link{
+    background: white;
+	color: #232323;
+    text-decoration: none;
+    font-size: 10pt;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+#log{
+    width: 200px;
+    background-color: brown;
+    padding: auto;
+}
