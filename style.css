@@ -1,5 +1,6 @@
 body{
     background-image: url("2.jpg");
+    background-repeat: no-repeat;
 }
 @font-face{
     font-family:"Flotta";

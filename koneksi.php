@@ -1,7 +1,7 @@
 <?php
-$host ="localhost";
+$host="localhost";
 $username="root";
 $password="";
-$database="admin";
-$connect = mysqli_connect($host, $username,$password. $database);
+$database="restaurant";
+$connect = mysqli_connect($host, $username,$password, $database);
 ?>

@@ -12,11 +12,36 @@
     <div class=hh>
         <center><h1  class=a>RM. SELERA<h1></center>
     </div>
+    
+    <center><h1>MENU MAKANAN/MINUMAN RM SELERA</h1>
+    <table bgcolor="#f7dfd4" border="1" width=80%></center>
+    <tr>
+        <th bgcolor="#eabcac">NO</th>
+        <th bgcolor="#eabcac">MAKANAN</th>
+        <th bgcolor="#eabcac">MINUMAN</th>
+    </tr>
+    <?php
+        include "koneksi.php";
+        $query = "SELECT*FROM menu";
+        $sql= mysqli_query($connect,$query);
+        while($data = mysqli_fetch_array($sql)){
+            echo "<tr>";
+            echo "<td>".$data['No']."</td>";
+            echo "<td>".$data['Makanan']."</td>";
+            echo "<td>".$data['Minuman']."</td>";
+            echo "</tr>";
+        }
+    ?>
+    </table>
+    <br><br><br>
     <div id=log>
-        <form action="" method="GET">
-            <br><input type="text" name="nama" placeholder="NAMA PEMESAN"><br><br>
+        <form action="input.php" method="POST">
+            <br><input type="text" name="no_meja" placeholder="No Meja">
+            <br><input type="text" name="nama" placeholder="NAMA PEMESAN"><br>
+            <br><input type="text" name="makanan" placeholder="Makanan(jumlah),makanan(jumlah)">
+            <br><input type="text" name="minuman" placeholder="Minuman(jumlah),minuman(jumlah)"><br><br>
+            <button type="submit" class=lin>SIMPAN</button><br><br>
         </form>
     </div>
-    
 </body>
 </html>
