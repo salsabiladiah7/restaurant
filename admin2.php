@@ -33,6 +33,8 @@
                 <td><?php echo $data['minuman']; ?></td>
             </tr>
             <?php } ?>
-            </table>
+        </table>
+        <br><br>
+        <a class=link href="login.php">SELESAI</a>
 </body>
 </html>
