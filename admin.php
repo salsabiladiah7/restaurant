@@ -13,7 +13,7 @@
     <center><h1  class=a>RM. SELERA<h1></center>
 </div>
 <div class=log>
-    <form action="admin2.php" method="POST">
+    <form action="adminValid.php" method="POST">
         <br><input type="text" name="ID" placeholder="ID ADMIN"><br><br>
         <input type="text" name="username" placeholder="USERNAME"><br><br>
         <input type="text" name="password" placeholder="PASSWORD"><br><br>

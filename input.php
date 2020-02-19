@@ -18,9 +18,11 @@
     $no_meja = $_POST['no_meja'];
     $nama = $_POST['nama'];
     $makanan = $_POST['makanan'];
+    $jumlah_makanan = $_POST['jumlah_makanan'];
     $minuman = $_POST['minuman'];
+    $jumlah_minuman = $_POST['jumlah_minuman'];
 
-    $query = "INSERT INTO pesanan VALUES('$no_meja','$nama','$makanan','$minuman')";
+    $query = "INSERT INTO pesanan VALUES('$no_meja','$nama','$makanan','$jumlah_makanan','$minuman','$jumlah_minuman')";
     $sql= mysqli_query($connect,$query);
     ?>
     <center><h1>DATA PESANAN</h1>
@@ -29,7 +31,9 @@
             <th bgcolor"#eabcac">NO. MEJA</th>
             <th bgcolor"#eabcac">ATAS NAMA</th>
             <th bgcolor"#eabcac">MAKANAN</th>
+            <th bgcolor"#eabcac">PORSI MAKANAN</th>
             <th bgcolor"#eabcac">MINUMAN</th>
+            <th bgcolor"#eabcac">PORSI MINUMAN</th>
         </tr>
         <?php
         include "koneksi.php";
@@ -41,7 +45,9 @@
             <td><?php echo $data['no_meja']; ?></td>
             <td><?php echo $data['nama']; ?></td>
             <td><?php echo $data['makanan']; ?></td>
+            <td><?php echo $data['jumlah_makanan']; ?></td>
             <td><?php echo $data['minuman']; ?></td>
+            <td><?php echo $data['jumlah_minuman']; ?></td>
 	    </tr>
 	    <?php } ?>
         </table>

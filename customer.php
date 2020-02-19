@@ -35,11 +35,13 @@
     </table>
     <br><br><br>
     <div id=log>
-        <form action="input.php" method="POST">
+        <form action="customerValid.php" method="POST">
             <br><input type="text" name="no_meja" placeholder="No Meja">
             <br><input type="text" name="nama" placeholder="NAMA PEMESAN"><br>
-            <br><input type="text" name="makanan" placeholder="Makanan(jumlah),makanan(jumlah)">
-            <br><input type="text" name="minuman" placeholder="Minuman(jumlah),minuman(jumlah)"><br><br>
+            <br><input type="text" name="makanan" placeholder="Makanan">
+            <br><input type="text" name="jumlah_makanan" placeholder="JUMLAH PORSI"><br>
+            <br><input type="text" name="minuman" placeholder="Minuman">
+            <br><input type="text" name="jumlah_minuman" placeholder="JUMLAH PORSI"><br><br>
             <button type="submit" class=lin>SIMPAN</button><br><br>
         </form>
     </div>
