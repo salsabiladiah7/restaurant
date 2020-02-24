@@ -7,6 +7,14 @@
     background-color: brown;
     border: 2px solid #874e4c;
 }
+.reg{
+    width: 30%;
+    height: 210px;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-color: brown;
+    border: 2px solid #874e4c;
+}
 form{
     text-align: center;
 }

@@ -35,7 +35,7 @@
     </table>
     <br><br><br>
     <div id=log>
-        <form action="customerValid.php" method="POST">
+        <form action="customer_create.php" method="POST">
             <br><input type="text" name="no_meja" placeholder="No Meja">
             <br><input type="text" name="nama" placeholder="NAMA PEMESAN"><br>
             <br><input type="text" name="makanan" placeholder="Makanan">

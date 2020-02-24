@@ -13,18 +13,6 @@
         <center><h1  class=a>RM. SELERA<h1></center>
     </div>
     <br><br><br>
-    <?php 
-    include 'koneksi.php';
-    $no_meja = $_POST['no_meja'];
-    $nama = $_POST['nama'];
-    $makanan = $_POST['makanan'];
-    $jumlah_makanan = $_POST['jumlah_makanan'];
-    $minuman = $_POST['minuman'];
-    $jumlah_minuman = $_POST['jumlah_minuman'];
-
-    $query = "INSERT INTO pesanan VALUES('$no_meja','$nama','$makanan','$jumlah_makanan','$minuman','$jumlah_minuman')";
-    $sql= mysqli_query($connect,$query);
-    ?>
     <center><h1>DATA PESANAN</h1>
     <table bgcolor="#f7dfd4" border="1" width="80%"></center>
         <tr>

@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="style.css";>
+    <link rel="stylesheet" type="text/css" href="a.css";>
     <title>Document</title>
 </head>
 <body>
-<div class=hh>
+    <div class=hh>
         <center><h1  class=a>RM. SELERA<h1></center>
     </div>
-    <a href="admin.php" class="button">ADMIN</a>
-    <a href="register.php" class="button">CUSTOMER</a>
+    <a href="masuk.php" class="button">Masuk</a>
+    <a href="daftar.php" class="button">Daftar</a>
 </body>
 </html>

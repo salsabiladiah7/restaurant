@@ -15,8 +15,8 @@
 <div class=log>
     <form action="adminValid.php" method="POST">
         <br><input type="text" name="ID" placeholder="ID ADMIN"><br><br>
-        <input type="text" name="username" placeholder="USERNAME"><br><br>
-        <input type="text" name="password" placeholder="PASSWORD"><br><br>
+        <input type="text" name="userr" placeholder="USERNAME"><br><br>
+        <input type="password" name="passw" placeholder="PASSWORD"><br><br>
         <button type="submit" class=lin>LOGIN</button><br><br>
         <a class=link href="login.php">KEMBALI</a>
     </form>
